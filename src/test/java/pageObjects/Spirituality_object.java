@@ -38,7 +38,7 @@ public class Spirituality_object extends TestBase {
 				executionDelay(2);
 				Sprituality_module.get(i).click();
 				System.out.println(driver.getCurrentUrl());
-				System.out.println("test");
+				System.out.println("testtesttesttest");
 				
 				if(driver.getCurrentUrl().contains("katha")) {
 					System.out.println("size"+Sprituality_Submodule2.size());
